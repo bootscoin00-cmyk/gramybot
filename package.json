@@ -1,1 +1,13 @@
-
+{
+  "name": "gramybot",
+  "version": "1.0.0",
+  "description": "GRAMY Telegram Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
