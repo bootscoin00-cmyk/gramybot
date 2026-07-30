@@ -7,36 +7,33 @@ const bot = new TelegramBot(token, {
 });
 
 // Ganti dengan URL RAW foto banner kamu
-const PHOTO_URL = "https://github.com/bootscoin00-cmyk/gramybot/main/banner.jpg";
+const PHOTO_URL = "https://raw.githubusercontent.com/bootscoin00-cmyk/gramybot/main/banner.jpg";
 
 bot.onText(/\/start/, (msg) => {
   bot.sendPhoto(msg.chat.id, PHOTO_URL, {
-    caption: `🎮 Welcome to GRAMY!
+  caption: `🎮 Welcome to GRAMY!
 
 Play the mini game, invite your friends, and earn rewards.
 
 Backed by TON Blockchain.
 
 Click the button below to start!`,
-    reply_markup: {
-      inline_keyboard: [
-        [
-          {
-            text: "🎮 Play for Airdrop",
-            web_app: {
-              url: "https://gramy5.netlify.app",
-            },
+  reply_markup: {
+    inline_keyboard: [
+      [
+        {
+          text: "🎮 Play for Airdrop",
+          web_app: {
+            url: "https://t.me/gramycoin_bot?startapp",
           },
-        ],
-        [
-          {
-            text: "📢 Announcement",
-            url: "https://t.me/gramyannouncement",
-          },
-        ],
+        },
       ],
-    },
-  });
-});
-
-console.log("GRAMY Bot is running...");
+      [
+        {
+          text: "📢 Announcement",
+          url: "https://t.me/gramyannouncement",
+        },
+      ],
+    ],
+  },
+}).catch(console.error);
