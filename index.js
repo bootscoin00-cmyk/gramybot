@@ -24,14 +24,14 @@ Click the button below to start!`,
           {
             text: "🎮 Play for Airdrop",
             web_app: {
-              url: "https://t.me/gramycoin_bot?startapp",
+              url: "https://gramy5.netlify.app",
             },
           },
         ],
         [
           {
             text: "📢 Announcement",
-            url: "https://t.me/GRAMYannouncement",
+            url: "https://t.me/gramyannouncement",
           },
         ],
       ],
