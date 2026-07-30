@@ -7,7 +7,7 @@ const bot = new TelegramBot(token, {
 });
 
 // Ganti dengan URL RAW foto banner kamu
-const PHOTO_URL = "https://raw.githubusercontent.com/USERNAME/gramybot/main/banner.jpg";
+const PHOTO_URL = "https://github.com/bootscoin00-cmyk/gramybot/main/banner.jpg";
 
 bot.onText(/\/start/, (msg) => {
   bot.sendPhoto(msg.chat.id, PHOTO_URL, {
