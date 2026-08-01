@@ -24,7 +24,7 @@ Click the button below to start!`,
           {
             text: "🎮 Play for Airdrop",
             web_app: {
-              url: "https://gramy5.netlify.app",
+              url: "https://gramyapp.netlify.app/",
             },
           },
         ],
