@@ -31,7 +31,7 @@ Click the button below to start!`,
         [
           {
             text: "📢 Announcement",
-            url: "https://t.me/gramyannouncement",
+            url: "https://t.me/gramyfam",
           },
         ],
       ],
